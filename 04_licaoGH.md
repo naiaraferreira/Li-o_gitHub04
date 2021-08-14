@@ -328,6 +328,11 @@ classe, não sobreviventes ao naufrágio, que possuiam idade entre 20 e 30
 anos (incluíndo esses extremos)? </br> *Resp.* 77 se homens percia a 1
 classe nao sobreviveram
 
+```r
+titanic %>%
+count(classe,sexo, sobreviveu)
+```
+
 **Questão 10.** Qual outra curiosidade você desejaria saber sobre esse
 conjunto de dados? Proponha uma questão que não tenha sido abordada nas
 perguntas anteriores e, em seguida, responda-a utilizando o `R`.
