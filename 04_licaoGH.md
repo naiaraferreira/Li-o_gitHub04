@@ -245,9 +245,9 @@ titanic %>%
 ![](04_licaoGH_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
 
 **Questão 06.** Qual a sua interpretação para esse fato? </br> *Resp.*
-Acredito que os os da primeira classe tinham mais condições de ter
-acesso a e á equipamentos de salvamento em relação a segunda e
-terceiraclasse, por conta do poder econômico que possuíam.
+Acredito que os passageiros da primeira classe tinham mais prioridade em ter
+acesso á objetos de salvamento em relação a segunda e
+terceira classe por conta do poder econômico que possuíam.
 
 #### 3.2.2 Juntando tudo
 
@@ -318,9 +318,9 @@ titanic %>%
 **Questão 08.** O que você pode afirmar sobre a mediana das idades dos
 passageiros, em relação à sua sobrevivência ou não? </br> *Resp.* A
 mediana dos não sobreviventes está mais próxima do perimeiro quartil,ou
-seja a maiorira deles tinham idade acima de 28 anos de idade. Enquanto a
+seja a maioria deles tinham idade acima de 28 anos de. Enquanto a
 mediana dos sobreviventes está próximo do terceiro quartil mostrando que
-a maioria dos sobrviventes tinham idades abaixo da mediana de 28 anos.
+a maioria dos sobreviventes tinham idades abaixo da mediana de 28 anos.
 
 ## 4. Para pensar e responder
 
@@ -369,7 +369,7 @@ count(idade,classe= "1 classe",sobreviveu= "nao",sexo="masculino")
     ## 10  5    1 classe nao        masculino     4
     ## # ... with 79 more rows
 
-D os 77 homens da 1° classe que nao sobreviveram, 15 deles tinham idade
+Dos 77 homens da 1° classe que nao sobreviveram, 15 deles tinham idade
 ente 20 e 30 anos.
 
 **Questão 10.** Qual outra curiosidade você desejaria saber sobre esse
@@ -377,7 +377,7 @@ conjunto de dados? Proponha uma questão que não tenha sido abordada nas
 perguntas anteriores e, em seguida, responda-a utilizando o `R`.
 
 **Questão proposta** Em qual porto embarcaou a maior quantidade de
-tripulante?
+passageiros?
 
 ``` r
 titanic %>%
@@ -393,4 +393,4 @@ titanic %>%
     ## 4 <NA>               2
 
 O porto Southmpown da Inglaterra foi onde embarcaram maior número de
-pessoas.
+passageiros.
